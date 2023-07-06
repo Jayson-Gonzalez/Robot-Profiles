@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Third Street Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Third Street Regular'), url('ThirdStreet-GOpWq.woff') format('woff');
+    }
+
+
+@font-face {
+    font-family: 'Third Street Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Third Street Bold'), url('ThirdStreetBold-JRqla.woff') format('woff');
+    }
+
+    h1{
+        font-family: 'Third Street Regular','Third Street Bold';
+        font-weight: 300;
+        color: #0ccac4;
+    }
